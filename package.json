@@ -1,0 +1,30 @@
+{
+  "name": "nipraj-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-meta-tags": "^1.0.1",
+    "react-multi-carousel": "^2.6.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.30.0"
+  }
+}

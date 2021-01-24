@@ -1,0 +1,132 @@
+@import "./variable";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.margin-top-bottom {
+  margin: 40px 0;
+  @media (min-width: 992px) {
+    margin: 60px 0;
+  }
+}
+
+.title1 {
+  font-weight: 700;
+  font-size: 24px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 28px;
+  }
+  @media (min-width: 992px) {
+    font-size: 32px;
+  }
+}
+.title2 {
+  font-weight: 700;
+  font-size: 22px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 24px;
+  }
+  @media (min-width: 992px) {
+    font-size: 26px;
+  }
+}
+.title3 {
+  font-weight: 500;
+  font-size: 20px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 24px;
+  }
+  @media (min-width: 992px) {
+    font-size: 28px;
+  }
+}
+.title4 {
+  font-weight: 500;
+  font-size: 18px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 22px;
+  }
+  @media (min-width: 992px) {
+    font-size: 20px;
+  }
+}
+
+.title5 {
+  font-weight: 300;
+  font-size: 16px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 20px;
+  }
+  @media (min-width: 992px) {
+    font-size: 22px;
+  }
+}
+.title6 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 16px;
+  }
+  @media (min-width: 992px) {
+    font-size: 18px;
+  }
+}
+
+.para {
+  font-weight: 300;
+  font-size: 16px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 18px;
+  }
+  @media (min-width: 992px) {
+    font-size: 20px;
+  }
+}
+.para1 {
+  font-weight: 300;
+  font-size: 14px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 16px;
+  }
+  @media (min-width: 992px) {
+    font-size: 18px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+  &:active,
+  &:focus {
+    outline: none;
+    color: $text-color;
+  }
+}
+
+// text-padding-top-bottom
+.text-padding {
+  padding: 1rem 0;
+}
+
+.theme-btn {
+  padding: 10px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+.read-btn {
+  background-color: $primary-blue;
+  color: $white;
+  width: 150px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  &:hover {
+    color: $white;
+  }
+}

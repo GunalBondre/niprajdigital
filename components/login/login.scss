@@ -1,0 +1,78 @@
+.form-wrapper {
+  width: 30%;
+  margin: 0 auto;
+  @media (max-width: 767px) {
+    width: 80%;
+  }
+  img {
+    width: 100%;
+  }
+  .logoimg {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  .formimg {
+    position: absolute;
+    width: 18px;
+    padding-top: 13px;
+    margin-left: 10px;
+  }
+  .passimg {
+    position: absolute;
+    width: 15px;
+    padding-top: 8px;
+    margin-left: 10px;
+  }
+  input {
+    padding: 5px 32px;
+  }
+
+  .signinBtn {
+    background-color: #00a550;
+    width: 200px;
+    border-radius: 20px;
+    color: #ffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+  }
+  .signup {
+    color: #00a550;
+  }
+
+  .theme-btn {
+    padding: 10px 20px;
+    border: 1px solid rgba($color: grey, $alpha: 0.7);
+    border-radius: 20px;
+    outline: none;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+}
+
+.loginContainer {
+  padding-top: 50px;
+  position: relative;
+  .backimg {
+    width: 100px;
+  }
+}
+.flowerimg {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  max-width: 200px;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.barimg {
+  position: absolute;
+  left: -229px;
+  bottom: -150px;
+  width: 100%;
+  max-width: 450px;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
